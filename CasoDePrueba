@@ -1,0 +1,122 @@
+Caso de prueba #1 Registro
+Objetivo: Verificar que el registro funcione
+Datos de entrada:
+- Nombre: Loki
+- Edad: 2
+- Tipo: "Gato"
+- Raza: Nebelung
+
+- Nombre: Thor
+- Edad: 2
+- Tipo: "Gato"
+- Raza: Americano pelo corto
+
+- Nombre: Firulais
+- Edad: 3
+- Tipo: "Perro"
+- Raza: "Labrador"
+
+Pasos:
+1. Ingresar opción 1
+2. Ingresar los datos de entrada
+
+Resultado:
+- "Paciente agregado."
+
+Sin errores
+============================================================
+Caso de prueba #2 Mostrar pacientes
+Objetivo: Verificar que el programa pueda encontrar y mostrar todos los pacientes
+Datos de entrada:
+- Nombre: Loki
+- Edad: 2
+- Tipo: "Gato"
+- Raza: Nebelung
+
+- Nombre: Thor
+- Edad: 2
+- Tipo: "Gato"
+- Raza: Americano pelo corto
+
+Pasos: 
+1. Ingresas opción 1
+2. Ingresar los datos de entrada
+3. Ingresar opción 2
+
+Resultado: 
+Pacientes:
+Gato:
+Nombre: Loki
+Edad: 2
+Raza: Nebelung
+No hay historial cí¡nico
+
+Gato:
+Nombre: Thor
+Edad: 2
+Raza: Americano pelo corto
+No hay historial clínico
+
+Sin errores
+============================================================
+Caso de prueba #3 Registrar consulta y mostrarla
+Objetivo: Verificar que el programa pueda encontrar, registrar una consulta, y mostrar todos los pacientes y la consulta escrita
+Datos de entrada:
+- Nombre: Loki
+- Edad: 2
+- Tipo: "Gato"
+- Raza: Nebelung
+
+- Nombre: Thor
+- Edad: 2
+- Tipo: "Gato"
+- Raza: Americano pelo corto
+
+"Vacunación"
+
+Pasos:
+1. Ingresas opción 1
+2. Ingresar los datos de entrada
+3. Ingresar opción 3
+4. Ingresar el nombre del paciente (En este caso, Loki)
+5. Ingresar "Vacunación"
+6. Ingresar opción 2
+
+Resultado:
+Pacientes:
+Gato:
+Nombre: Loki
+Edad: 2
+Raza: Nebelung
+Historial:
+Vacunación
+
+Gato:
+Nombre: Thor
+Edad: 2
+Raza: Americano pelo corto
+No hay historial clínico
+
+Sin errores
+============================================================
+Caso de prueba #4 Registrar consulta a paciente no existente
+Objetivo: Verificar que el programa pueda buscar, no encontrar, y mostrar mensaje de error al ingresar un paciente inexistente
+
+Datos de entrada:
+- Nombre: Loki
+- Edad: 2
+- Tipo: "Gato"
+- Raza: Nebelung
+
+Pasos:
+1. Ingresas opción 1
+2. Ingresar los datos de entrada
+3. Ingresar opción 3
+4. Ingresar el nombre del paciente inexistente (En este caso, Thor)
+5. Ingresar consulta
+
+Resultado:
+Animal no encontrado: Thor
+
+Sin errores
+============================================================
