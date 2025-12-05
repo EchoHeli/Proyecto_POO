@@ -109,17 +109,19 @@ class Veterinaria {
         string tipo;
         string raza;
         cout << "Ingrese el nombre del paciente:" << endl;
-        cin >> nombre;
+        cin.ignore();
+        getline(cin, nombre);
         cout << "Ingrese la edad del paciente:" << endl;
         cin >> edad;
-        cout << "Ingrese el tipo del paciente (gato/perro):" << endl;
+        cout << "Ingrese el tipo del paciente (Gato/Perro):" << endl;
         cin >> tipo;
         cout << "Ingrese el raza del paciente:" << endl;
-        cin >> raza;
+        cin.ignore();
+        getline(cin, raza);
         Animal*a = nullptr;
-        if (tipo == "gato")
+        if (tipo == "Gato")
             a = new Gato(nombre, edad, raza);
-        else if (tipo == "perro")
+        else if (tipo == "Perro")
             a = new Perro(nombre, edad, raza);
         else {
             cout << "Tipo de animal invalido" << endl;
